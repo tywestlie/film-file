@@ -5,6 +5,6 @@ Bundler.require
 
 require File.expand_path("../../config/environment", __FILE__)
 require 'minitest/autorun'
-require 'capybara'
+require 'capybara/dsl'
 
 Capybara.app = FilmFile
